@@ -1,0 +1,4 @@
+*MyParser> let p = mapParser character toUpper in parse p "abc"
+Just ("bc",'A')
+*MyParser> let p = mapParser character toUpper in parse p ""
+Nothing

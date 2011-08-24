@@ -1,0 +1,8 @@
+*MyParser> let p = many1 character in parse p ""
+Nothing
+*MyParser> let p = many1 character in parse p "abc"
+Just ("","abc")
+*MyParser> let p = list character in parse p ""
+Just ("","")
+*MyParser> let p = list character in parse p "abc"
+Just ("","abc")

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    $LastChangedRevision: 1938 $
+    $LastChangedDate: 2010-03-10 20:50:58 +1000 (Wed, 10 Mar 2010) $
+-->
+
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5CR1/docbookx.dtd">
+
+<sect1 id="PhoneBodyParser" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>phoneBodyParser</title>
+  <para>
+    We will break the parsing of a phone number into two parts for simplicity. This part will parse the phone number
+    body (without the hash at the end). It uses the <code>list</code>, <code>digit</code> and <code>is</code> parsers
+    along with choice.   
+    <programlisting lang="Haskell"><xi:include href="20/MyParser.hs" parse="text"/></programlisting>
+    <emphasis>Phone: string of digits, dots or hyphens but must start with a digit and end with a hash (#)</emphasis>
+  </para>
+</sect1>

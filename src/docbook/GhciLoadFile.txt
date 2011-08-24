@@ -1,0 +1,6 @@
+$ ghci
+GHCi, version 6.10.2: http://www.haskell.org/ghc/  :? for help
+Prelude> :load MyParser.hs
+[1 of 1] Compiling MyParser         ( MyParser.hs, interpreted )
+Ok, modules loaded: MyParser.
+*MyParser>                                                         

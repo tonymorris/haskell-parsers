@@ -1,0 +1,10 @@
+*MyParser> parse upper ""
+Nothing
+*MyParser> parse upper "a"
+Nothing
+*MyParser> parse upper "A"
+Just ("",'A')
+*MyParser> let p = list digit in parse p ""
+Just ("","")
+*MyParser> let p = list digit in parse p "79abc"
+Just ("abc","79")

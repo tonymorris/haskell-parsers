@@ -1,0 +1,8 @@
+*MyParser> let p = sequenceParser [character, value 'b', character] in parse p ""
+Nothing
+*MyParser> let p = sequenceParser [character, value 'b', character] in parse p "a"
+Nothing
+*MyParser> let p = sequenceParser [character, value 'b', character] in parse p "ab"
+Just ("","abb")
+*MyParser> let p = sequenceParser [character, value 'b', character] in parse p "abc"
+Just ("c","abb")

@@ -1,0 +1,8 @@
+*MyParser> parse personParser1 ""
+Nothing
+*MyParser> parse personParser1 "123 Fred Clarkson m 123-456.789#"
+Just ("",Person {age = 123, firstName = "Fred", surname = "Clarkson", gender = 'm', phone = "123-456.789"})
+*MyParser> parse personParser1 "123 Fred Clarkson m 123-456.789# the rest of the input"
+Just (" the rest of the input",Person {age = 123, firstName = "Fred", surname = "Clarkson", gender = 'm', phone = "123-456.789"})
+*MyParser> parse personParser1 "123 Fred Clark m 123-456.789# the rest of the input"
+Nothing

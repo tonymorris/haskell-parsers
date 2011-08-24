@@ -1,0 +1,8 @@
+*MyParser> let p = character ||| value 'x' in parse p "abc"
+Just ("bc",'a')
+*MyParser> let p = character ||| value 'x' in parse p ""
+Just ("",'x')
+*MyParser> let p = character ||| failed in parse p "abc"
+Just ("bc",'a')
+*MyParser> let p = character ||| failed in parse p ""
+Nothing

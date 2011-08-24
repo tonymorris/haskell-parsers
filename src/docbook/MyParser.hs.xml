@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    $LastChangedRevision: 1938 $
+    $LastChangedDate: 2010-03-10 20:50:58 +1000 (Wed, 10 Mar 2010) $
+-->
+
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5CR1/docbookx.dtd">
+
+<appendix id="MyParser.hs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>MyParser.hs</title>
+  <para>
+    <programlisting lang="Haskell"><xi:include href="01/MyParser.hs" parse="text"/>
+      
+<xi:include href="02/MyParser.hs" parse="text"/>
+
+<xi:include href="03/MyParser.hs" parse="text"/>
+
+<xi:include href="04/MyParser.hs" parse="text"/>
+
+<xi:include href="05/MyParser.hs" parse="text"/>
+
+<xi:include href="06/MyParser.hs" parse="text"/>
+
+<xi:include href="07/MyParser.hs" parse="text"/>
+
+<xi:include href="08/MyParser.hs" parse="text"/>
+
+<xi:include href="09/MyParser.hs" parse="text"/>
+
+<xi:include href="10/MyParser.hs" parse="text"/>
+
+<xi:include href="11/MyParser.hs" parse="text"/>
+
+<xi:include href="12/MyParser.hs" parse="text"/>
+
+<xi:include href="13/MyParser.hs" parse="text"/>
+
+<xi:include href="14/MyParser.hs" parse="text"/>
+
+<xi:include href="15/MyParser.hs" parse="text"/>
+
+<xi:include href="16/MyParser.hs" parse="text"/>
+
+<xi:include href="17/MyParser.hs" parse="text"/>
+
+<xi:include href="18/MyParser.hs" parse="text"/>
+
+<xi:include href="19/MyParser.hs" parse="text"/>
+
+<xi:include href="20/MyParser.hs" parse="text"/>
+
+<xi:include href="21/MyParser.hs" parse="text"/>
+
+<xi:include href="22/MyParser.hs" parse="text"/>
+
+<xi:include href="23/MyParser.hs" parse="text"/>
+
+<xi:include href="24/MyParser.hs" parse="text"/></programlisting>
+  </para>
+</appendix>

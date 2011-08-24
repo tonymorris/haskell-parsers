@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    $LastChangedRevision: 1938 $
+    $LastChangedDate: 2010-03-10 20:50:58 +1000 (Wed, 10 Mar 2010) $
+-->
+
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5CR1/docbookx.dtd">
+
+<sect1 id="Choice" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Choice Parser</title>
+  <sect2>
+    <title>|||</title>
+    <para>
+      Write a function that accepts two parsers and returns a parser that tries the first parser for success. If that
+      parser fails, try the second parser.
+      <programlisting lang="Haskell"><xi:include href="06/MyParser.hs" parse="text"/></programlisting>
+    </para>
+  </sect2>
+  <sect2>
+    <title>Experiment</title>
+    <para>
+      Experiment with the choice parser
+      <programlisting><xi:include href="ExperimentWithChoice.txt" parse="text"/></programlisting>
+    </para>
+  </sect2>
+</sect1>

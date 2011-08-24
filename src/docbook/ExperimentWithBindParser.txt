@@ -1,0 +1,6 @@
+*MyParser> let p = bindParser character (\c -> if isUpper c then value c else failed) in parse p ""
+Nothing
+*MyParser> let p = bindParser character (\c -> if isUpper c then value c else failed) in parse p "abc"
+Nothing
+*MyParser> let p = bindParser character (\c -> if isUpper c then value c else failed) in parse p "Abc"
+Just ("bc",'A')

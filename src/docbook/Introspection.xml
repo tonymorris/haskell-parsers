@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    $LastChangedRevision: 1938 $
+    $LastChangedDate: 2010-03-10 20:50:58 +1000 (Wed, 10 Mar 2010) $
+-->
+
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5CR1/docbookx.dtd">
+
+<sect1 id="Introspection" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introspection</title>
+  <sect2>
+    <title>Bits and Pieces</title>
+    <para>
+      So far we have constructed a small library of parsers. Some of these parsers are constructed from other parsers.
+      This notion of constructing units of work from other, smaller units of work is the essence of functional
+      programming. Does it scale?
+    </para>
+    <para>
+      Can we write even more higher-level parsers with our library by <emphasis>gluing</emphasis> parsers?
+    </para>
+  </sect2>
+  <sect2>
+    <title>Person</title>
+    <para>
+      Suppose we have a data structure to represent a person. The person data structure has these attributes:
+      <itemizedlist>
+        <listitem>
+          <para>
+            Age: positive integer
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            First Name: non-empty string that starts with a capital letter
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            Surname: string that starts with a capital letter and is followed by 5 or more lower-case letters
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            Gender: character that must be 'm' or 'f'
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            Phone: string of digits, dots or hyphens but must start with a digit and end with a hash (#)
+          </para>
+        </listitem>
+      </itemizedlist>
+      <programlisting lang="Haskell"><xi:include href="15/MyParser.hs" parse="text"/></programlisting>
+    </para>
+  </sect2>
+</sect1>

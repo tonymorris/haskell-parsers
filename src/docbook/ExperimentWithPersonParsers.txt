@@ -1,0 +1,48 @@
+*MyParser> parse firstNameParser ""
+Nothing
+*MyParser> parse firstNameParser "fred"
+Nothing
+*MyParser> parse firstNameParser "Fred"
+Just ("","Fred")
+*MyParser> parse surnameParser ""
+Nothing
+*MyParser> parse surnameParser "fred"
+Nothing
+*MyParser> parse surnameParser "Fred"
+Nothing
+*MyParser> parse surnameParser "Frederick"
+Just ("","Frederick")
+*MyParser> parse genderParser ""
+Nothing
+*MyParser> parse genderParser "a"
+Nothing
+*MyParser> parse genderParser "m"
+Just ("",'m')
+*MyParser> parse genderParser "moo"
+Just ("oo",'m')
+*MyParser> parse phoneBodyParser ""
+Just ("","")
+*MyParser> parse phoneBodyParser "123"
+Just ("","123")
+*MyParser> parse phoneBodyParser "123-456"
+Just ("","123-456")
+*MyParser> parse phoneBodyParser "123-456.789"
+Just ("","123-456.789")
+*MyParser> parse phoneParser ""
+Nothing
+*MyParser> parse phoneParser "#"
+Nothing
+*MyParser> parse phoneParser "-#"
+Nothing
+*MyParser> parse phoneParser "12#"
+Just ("","12")
+*MyParser> parse phoneParser "1-2#"
+Just ("","1-2")
+*MyParser> parse phoneParser "123-456.789"
+Nothing
+*MyParser> parse phoneParser "123-456.789#"
+Just ("","123-456.789")
+*MyParser> parse phoneParser "123-456.789#"
+Just ("","123-456.789")
+*MyParser> parse phoneParser "123#"
+Just ("","123")

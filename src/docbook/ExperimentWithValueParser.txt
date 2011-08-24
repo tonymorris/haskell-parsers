@@ -1,0 +1,6 @@
+*MyParser> :type parse (value "boo")
+parse (value "boo") :: String -> Maybe (String, [Char])
+*MyParser> parse (value 7) "input"
+Just ("input",7)
+*MyParser> parse (value "boo") "input"
+Just ("input","boo")

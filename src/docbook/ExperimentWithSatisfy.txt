@@ -1,0 +1,12 @@
+*MyParser> let p = satisfy isUpper in parse p ""
+Nothing
+*MyParser> let p = satisfy isUpper in parse p "abc"
+Nothing
+*MyParser> let p = satisfy isUpper in parse p "Abc"
+Just ("bc",'A')
+*MyParser> let p = is 'a' in parse p ""
+Nothing
+*MyParser> let p = is 'a' in parse p "abc"
+Just ("bc",'a')
+*MyParser> let p = is 'a' in parse p "xbc"
+Nothing

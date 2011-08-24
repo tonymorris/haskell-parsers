@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    $LastChangedRevision: 1938 $
+    $LastChangedDate: 2010-03-10 20:50:58 +1000 (Wed, 10 Mar 2010) $
+-->
 
 <!DOCTYPE articleinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+    "http://www.oasis-open.org/docbook/xml/4.5CR1/docbookx.dtd">
 
-<articleinfo id="DocbookDocumentInfo" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <xi:include href="articleinfo/author/tony.xml"/>
-  <xi:include href="articleinfo/copyright.xml"/>
-  <title id="Title">Docbook Document</title>
+<articleinfo id="ArticleHeader">
+  <abstract id="Abstract">
+    <para>
+      A hands-on introductory tutorial to monadic parsers using the Haskell Programming Language
+      <ulink url="http://haskell.org/"/>. Students will require an installation of the Glasgow Haskell Compiler <ulink
+        url="http://haskell.org/ghc"/> and a text editor. Upon completion of the tutorial students will have created a
+      parser library.
+    </para>
+    <para>
+      Students will be expected to have a basic understanding of Haskell syntax and familiarity with tools -- in
+      particular, the GHC interpreter (GHCi).
+    </para>
+    <para>
+      This document is released under a Creative Commons - Attribution, Non-Commercial, No Derivative Works licence.
+      <xref linkend="Licence"/>
+    </para>
+    </abstract>
+  <author id="Author">
+    <firstname>Tony</firstname>
+    <surname>Morris</surname>
+    <address>
+      <email>tmorris@tmorris.net</email>
+      <city>Brisbane</city>
+      <state>Queensland</state>
+      <country>Australia</country>
+    </address>
+  </author>
+  <copyright id="Copyright">
+    <year>2009</year>
+    <holder>
+      Tony Morris
+    </holder>
+  </copyright>
+  <title id="Title">Monadic Parsers using Haskell</title>
+  <subtitle id="Subtitle">An introduction</subtitle>
 </articleinfo>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    $LastChangedRevision: 1938 $
+    $LastChangedDate: 2010-03-10 20:50:58 +1000 (Wed, 10 Mar 2010) $
+-->
+
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5CR1/docbookx.dtd">
+
+<sect1 id="SequenceN" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sequence N Parser</title>
+  <sect2>
+    <title>thisMany</title>
+    <para>
+      Write a function that accepts an integer (n) and a parser and returns a parser that binds 'n' times. We can do
+      this by using the library function <code>replicate</code>.
+      <programlisting lang="Haskell"><xi:include href="11/MyParser.hs" parse="text"/></programlisting>
+    </para>
+  </sect2>
+</sect1>

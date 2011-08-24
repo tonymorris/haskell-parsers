@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    $LastChangedRevision: 1938 $
+    $LastChangedDate: 2010-03-10 20:50:58 +1000 (Wed, 10 Mar 2010) $
+-->
 
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-    <!ENTITY % local.common.attrib
-               "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2001/XInclude'">
-]>
+    "http://www.oasis-open.org/docbook/xml/4.5CR1/docbookx.dtd">
 
-<article id="DocbookDocument" xmlns:xi="http://www.w3.org/2001/XInclude">
+<article xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="articleinfo.xml"/>
-  <xi:include href="introduction.xml"/>
-  <xi:include href="PGPKEY.xml"/>
-  <xi:include href="CC-BY-SA.xml"/>
+  <xi:include href="Introduction.xml"/>
+  <xi:include href="WhatIsAParser.xml"/>
+  <xi:include href="OurFirstParser.xml"/>
+  <xi:include href="FailingParser.xml"/>
+  <xi:include href="Character.xml"/>
+  <xi:include href="Choice.xml"/>
+  <xi:include href="MapParser.xml"/>
+  <xi:include href="BindParser.xml"/>
+  <xi:include href="AnonymousBindParser.xml"/>
+  <xi:include href="SequenceParser.xml"/>
+  <xi:include href="SequenceN.xml"/>
+  <xi:include href="ZeroOrMany.xml"/>
+  <xi:include href="Satisfy.xml"/>
+  <xi:include href="Satisfiers.xml"/>
+  <xi:include href="Introspection.xml"/>
+  <xi:include href="AgeParser.xml"/>
+  <xi:include href="FirstNameParser.xml"/>
+  <xi:include href="SurnameParser.xml"/>
+  <xi:include href="GenderParser.xml"/>
+  <xi:include href="PhoneBodyParser.xml"/>
+  <xi:include href="PhoneParser.xml"/>
+  <xi:include href="PersonParser.xml"/>
+  <xi:include href="BindMap.xml"/>
+  <xi:include href="Conclusion.xml"/>
+  <xi:include href="MyParser.hs.xml"/>
+  <xi:include href="MyParser.scala.xml"/>
+  <xi:include href="MyParser.java.xml"/>
+  <xi:include href="LICENCE.xml"/>
 </article>

@@ -1,0 +1,6 @@
+*MyParser> :type parse character
+parse character :: String -> Maybe (String, Char)
+*MyParser> parse character "abc"
+Just ("bc",'a')
+*MyParser> parse character ""
+Nothing

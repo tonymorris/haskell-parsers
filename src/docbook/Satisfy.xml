@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    $LastChangedRevision: 1938 $
+    $LastChangedDate: 2010-03-10 20:50:58 +1000 (Wed, 10 Mar 2010) $
+-->
+
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5CR1/docbookx.dtd">
+
+<sect1 id="Satisfy" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Satisfy</title>
+  <sect2>
+    <title>satisfy</title>
+    <para>
+      Write a parser that consumes a character (or fails if there isn't one) and ensures that character meets a given
+      predicate. We might also use this parser to write another parser (<code>is</code>) that parses a specific
+      character.
+      <programlisting lang="Haskell"><xi:include href="13/MyParser.hs" parse="text"/></programlisting>
+    </para>
+  </sect2>
+  <sect2>
+    <title>Experiment</title>
+    <para>
+      Experiment with these parsers
+      <programlisting><xi:include href="ExperimentWithSatisfy.txt" parse="text"/></programlisting>
+    </para>
+  </sect2>
+</sect1>
