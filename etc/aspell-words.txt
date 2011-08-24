@@ -1,12 +1,19 @@
-personal_ws-1.1 en 28 
+personal_ws-1.1 en 45 
 organization
 waivable
 AUTHORIZED
+phoneBodyParser
+genderParser
 synching
 Ssection
+bindParser
+GHC
+GHCi
 phonogram
 sublicense
 Docbook
+scala
+surnameParser
 recognizably
 Licence
 ShareAlike
@@ -15,15 +22,25 @@ pre
 NONINFRINGEMENT
 utilizing
 Unported
+thisMany
+mapParser
+phoneParser
+Satisfiers
 PGP
+ageParser
 Licensor's
 honor
+personParser
 dramatico
 MERCHANTIBILITY
+MyParser
 CCPL
 relicensing
+firstNameParser
 WIPO
 synchronization
 Licensor
 Berne
 phonograms
+sequenceParser
+hs
