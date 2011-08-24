@@ -1,7 +1,7 @@
-Docbook Document
-================
+Monadic Parsers using Haskell
+=============================
 
-A template from which to create a Docbook document.
+Slides for a presentation on monadic parsers.
 
 Setting up
 ==========

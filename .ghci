@@ -2,6 +2,5 @@
 :m + Build
 :m + Build.Document
 :set -Wall
-:set prompt "λdocbook>> "
-
+:set prompt "λhaskell-parsers>> "
 
