@@ -1,49 +1,57 @@
 div.navheader table {
   background-color:#eee;
 }
+
 div.navheader th  {
   font-family:georgia, Verdana, Arial, serif;
   font-weight:bold;
 }
+
 div.navheader td  {
   font-family:georgia, Verdana, Arial, serif;
   font-weight:normal;
 }
+
 div.navfooter table {
   background-color:#eee;
 }
+
 div.navfooter th  {
   font-family:georgia, Verdana, Arial, serif;
   font-weight:bold;
 }
+
 div.navfooter td  {
   font-family:georgia, Verdana, Arial, serif;
   font-weight:normal;
 }
+
 div.revhistory table, div.revhistory tr, div.revhistory td, div.revhistory th {
   font-size:18px;
 }
+
 div.table-contents table {
   padding: 5px;
 }
+
 div.blockquote table {
   border: 0;
 }
-table {
-  border: 1px solid #ccc;
-}
+
 tr, td, th {
   font-size:24px;
-  border: 0;
+  border-width: 1px;
 }
+
 body {
   color: #000;
-  font-size:24px;
-  line-height:35px;
+  font-size:18px;
+  line-height:25px;
   font-family:'Lucida Grande', Verdana, Arial, sans-serif;
   background-color:#fff;
   margin: 15px;
 }
+
 h1 {
   font-size:60px;
   line-height:60px;
@@ -51,6 +59,7 @@ h1 {
   margin-bottom:15px;
   font-weight:normal;
 }
+
 h2 {
   font-size:60px;
   line-height:70px;
@@ -58,6 +67,7 @@ h2 {
   font-family:georgia, Verdana, Arial, serif;
   color:black;
 }
+
 h3 {
   font-size:40px;
   line-height:40px;
@@ -65,41 +75,52 @@ h3 {
   font-family:georgia, Verdana, Arial, serif;
   color:black;
 }
+
 p {
   margin-bottom:25px;
 }
+
 a:hover {
   text-decoration:none;
 }
+
 ul {
   list-style-type:disc;
   margin:25px 25px;
 }
+
 img.right {
   float: right;
   margin:10px;
 }
+
 img.left {
   float: left;
   margin:10px;
 }
+
 img.center {
   margin:10px auto 25px auto;
   display:block;
 }
-pre.programlisting{
+
+pre.programlisting {
   color:white;
   background: #000 no-repeat top right;
   font-family:Monaco, Consolas, "Courier New", monospace;
   font-size:24px;
+  font-weight: bold;
   line-height:28px;
   padding:5px 10px;
   margin-bottom:25px;
-
 }
-pre[lang=Haskell].programlisting{
-  color:yellow;
-  font-weight: bold;
+
+a[accesskey=n], a[accesskey=p], a[accesskey=h], a[accesskey=u] {
+  font-family:georgia, Verdana, Arial, serif;
+  font-weight:bold;
+  font-size:medium;
+  background-color: #E0E0E0;
+  color: darkgray;
 }
 
 .code {
@@ -110,3 +131,23 @@ pre[lang=Haskell].programlisting{
   padding: 2px;
 }
 
+.blockquote {
+  font-style: italic;
+}
+
+.caption {
+  font-size: medium;
+}
+
+.footnote {
+  font-size:small;
+  font-weight:bold;
+}
+
+.xref {
+  font-size:small;
+}
+
+.subtitle {
+  font-size: medium;
+}
